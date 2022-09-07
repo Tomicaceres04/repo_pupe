@@ -7,15 +7,16 @@
     <link rel="icon" href="./img/logopupe.ico">
     <title>Quienes Somos Pupe Shoes</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="color__fondo">
     <div class="contenedor__quienes--somos">
         <header id="header" class="header">
             <nav id="nav">
                 <a href="index.html">
-                <img src="./img/pupe_logo.jpg" alt="Logo de Pupe Shoes" class="border__circulo">
+                <img src="./img/pupe_logo.jpg" alt="Logo de Pupe Shoes" class="border__circulo" data-aos="zoom-in">
                 </a>
-                <ul>
+                <ul data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                     <li>
                         <a href="./quienes-somos.html">Quienes Somos?</a>
                     </li>
@@ -33,22 +34,22 @@
         </header>
         <main id="main">
             <h1>Quienes somos?</h1>
-                <section id="sectiongua" class="conteiner__flex">
-                    <div class="flex__item">
+                <section id="sectiongua" class="conteiner__flex" data-aos="fade-right" data-aos-duration="2000">
+                    <div class="flex__item" data-aos="fade-right">
                         <h2 class="titulo__gua">Guada Tulian</h2>
                         <p class="parrafo__gua">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos debitis illo temporibus delectus nemo. Nesciunt, voluptates nobis natus in magni ipsam dolores quo quibusdam dolorum quia assumenda magnam, nisi repellat.</p>
                     </div>
                     <div class="flex__imagen">
-                        <img src="./img/foto-guada-t.jpg" alt="foto guada" class="foto__guada">
+                        <img src="./img/foto-guada-t.jpg" alt="foto guada" class="foto__guada" data-aos="zoom-in-left" data-aos-duration="2500" >
                     </div>
                 </section>
-                <section id="sectionpup" class="caja__contenedor">
+                <section id="sectionpup" class="caja__contenedor" data-aos="fade-left" data-aos-duration="2000">
                     <div class="flex__texto">
                         <h2 class="titulo__pup">Pupe Shoes</h2>
                         <p class="parrafo__pup">Lorem ipsum, dolor sit adipisicing elit. Ad maiores atque et omnis odit alias in, quasi veniam? Eos similique hic voluptate suscipit dolor, atque eum nihil assumenda commodi soluta!</p>
                     </div>
                     <div class="flex__imagen">
-                        <img src="./img/logo.jpg" alt="Pupe Foto" class="imagen_pupe">
+                        <img src="./img/logo.jpg" alt="Pupe Foto" class="imagen_pupe" data-aos="zoom-in-right" data-aos-duration="2500">
                     </div>
                 </section>
         </main>
@@ -69,5 +70,9 @@
             </div>
         </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
