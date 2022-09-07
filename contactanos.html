@@ -7,16 +7,17 @@
     <link rel="icon" href="img/logopupe.ico">
     <title>Contactos Pupe Shoes</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="color__fondo">
     <header>
         <nav>
             <div>
                 <a href="index.html">
-                <img src="./img/pupe_logo.jpg" alt="Logo de Pupe Shoes" class="border__circulo">
+                <img src="./img/pupe_logo.jpg" alt="Logo de Pupe Shoes" class="border__circulo" data-aos="zoom-in">
                 </a>
             </div>
-            <ul>
+            <ul data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                 <li>
                     <a href="./quienes-somos.html">Quienes Somos?</a>
                 </li>
@@ -34,11 +35,11 @@
     </header>
     <main>
         <h1>Contactanos</h1>
-        <section class="conteiner__contac">
+        <section class="conteiner__contac" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
             <div class="conteiner__mapa">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4006.6179257606286!2d-58.95496108423686!3d-34.604847865065985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc8fbc84937c67%3A0x4a45c6cd46d79785!2sAvellaneda%20722%2C%20B1748%20Gral.%20Rodr%C3%ADguez%2C%20Provincia%20de%20Buenos%20Aires!5e1!3m2!1ses!2sar!4v1659503215326!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="border__maps"></iframe>
             </div>
-            <div class="contenedor__cajas">
+            <div class="contenedor__cajas" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                 <a href="#" target="_blank">
                 <img src="./img/gmail-google.png" alt="Correo" class="pie__icon--md">
                 </a>
@@ -49,14 +50,12 @@
                 </a>
                 <label for="tel" class="boton__contact">Telefono </label>
                 <input type="tel" name="tel" id="tel" placeholder="Ingrese su numero de telefono" class="boton__contact--ing">
-            </div>
-            <div class="contenedor__area">   
                 <label for="Comentario" class="boton__contact">Dejanos un Mensaje </label>
                 <textarea name="" id="Comentario" cols="50" rows="10" class="text__area--com"></textarea>
-            </div>
-            <div class="contenedor__botones">
-                <input type="submit" value="Enviar" class="botones__env--can">
-                <input type="reset" value="Cancelar" class="botones__env--canc">
+                    <div class="contenedor__botones">
+                        <input type="submit" value="Enviar" class="botones__env--can">
+                        <input type="reset" value="Cancelar" class="botones__env--canc">
+                    </div>
             </div>
         </section>
     </main>
@@ -76,5 +75,9 @@
             </a>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

@@ -7,16 +7,17 @@
     <link rel="icon" href="img/logopupe.ico">
     <title>Destacados de Pupe Shoes</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="color__fondo">
     <header>
         <nav>
             <div>
                 <a href="index.html">
-                <img src="./img/pupe_logo.jpg" alt="Logo de Pupe Shoes" class="border__circulo">
+                <img src="./img/pupe_logo.jpg" alt="Logo de Pupe Shoes" class="border__circulo" data-aos="zoom-in">
                 </a>
             </div>
-            <ul>
+            <ul data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                 <li>
                     <a href="./quienes-somos.html">Quienes Somos?</a>
                 </li>
@@ -35,55 +36,55 @@
     <main>
         <h1>Destacados</h1>
         <section class="destacados__pro">
-            <figure>
+            <figure data-aos="zoom-in" data-aos-duration="2000">
                 <img src="./Img-venta/plataforma_rosa.jfif" alt="Plataforma rosa">
                 <figcaption>Plataforma Rosa</figcaption>
                 <p class="precio">$5.999</p>
             </figure>
 
-            <figure>
+            <figure data-aos="zoom-in" data-aos-duration="2000">
                 <img src="./Img-venta/texanas_blancascielo.jpeg" alt="Texanas Blancas">
                 <figcaption>Texanas Blancas</figcaption>
                 <p class="precio">$6.999</p>
             </figure>
 
-            <figure>
+            <figure data-aos="zoom-in" data-aos-duration="2000">
                 <img src="./Img-venta/plataforma_blanco.jfif" alt="Plataforma Blanca">
                 <figcaption>Plataforma Blanca</figcaption>
                 <p class="precio">$5.999</p>
             </figure>
 
-            <figure>
+            <figure data-aos="zoom-in" data-aos-duration="2000">
                 <img src="./Img-venta/Botas_brillos.jpg" alt="Botas Brillos">
                 <figcaption>Botas Brillos</figcaption>
                 <p class="precio">$5.500</p>
             </figure>
 
-            <figure>
+            <figure data-aos="zoom-in" data-aos-duration="2000">
                 <img src="./Img-venta/botas-negras.jfif" alt="Botas Negras">
                 <figcaption>Botas Negras</figcaption>
                 <p class="precio">$5.000</p>
             </figure>
 
-            <figure>
+            <figure data-aos="zoom-in" data-aos-duration="2000">
                 <img src="./Img-venta/bucaneras_negra_marron.jfif" alt="Bucaneras Negra o Marron">
                 <figcaption>Bucaneras</figcaption>
                 <p class="precio">$7.000</p>
             </figure>
 
-            <figure>
+            <figure data-aos="zoom-in" data-aos-duration="2000">
                 <img src="./Img-venta/shoes_blanca-gris-rosa.jfif" alt="Zapatillas Blancas Rosas Deportivas">
                 <figcaption>Zapatillas Street</figcaption>
                 <p class="precio">$8.000</p>
             </figure>
 
-            <figure>
+            <figure data-aos="zoom-in" data-aos-duration="2000">
                 <img src="./Img-venta/zapatos_texanad.jfif" alt="Texanas Brillos">
                 <figcaption>Texanas Brillos</figcaption>
                 <p class="precio">$6.500</p>
             </figure>
 
-            <figure>
+            <figure data-aos="zoom-in" data-aos-duration="2000" class="desaparecer__fig--des">
                 <img src="./Img-venta/botas-lluvia.jfif" alt="Botas Lluvia">
                 <figcaption>Botas LLuvia</figcaption>
                 <p class="precio">$6.000</p>
@@ -106,5 +107,9 @@
             </a>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
