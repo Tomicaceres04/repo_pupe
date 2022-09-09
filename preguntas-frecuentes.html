@@ -6,79 +6,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/logopupe.ico">
     <title>FAQ Pupe Shoes</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="color__fondo">
-    <header>
-        <nav>
-            <div>
-                <a href="index.html">
-                <img src="./img/pupe_logo.jpg" alt="Logo de Pupe Shoes" class="border__circulo" data-aos="zoom-in">
-                </a>
-            </div>
-            <ul data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                <li>
-                    <a href="./quienes-somos.html">Quienes Somos?</a>
-                </li>
-                <Li>
-                    <a href="./preguntas-frecuentes.html">Preguntas Frecuentes</a>
-                </Li>
-                <li>
-                    <a href="./contactanos.html">Contactanos</a>
-                </li>
-                <li>
-                    <a href="./destacados.html">Destacados</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <header></header>
+        <!-- Inicia nav -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid d-flex flex-lg-column align-items-center">
+                    <a class="navbar-brand" href="./index.html">
+                        <img src="./img/pupe_logo.jpg" alt="Logo de Pupe Shoes" class="border__circulo" data-aos="zoom-in">
+                    </a>
+                <button class="navbar-toggler boton__hamburguesa border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="./img/menu.png" alt="Boton Hamburguesa">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./destacados.html">Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./quienes-somos.html">Quienes Somos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./preguntas-frecuentes.html">Preguntas Frecuentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contactanos.html">Contactanos</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Termina nav -->
     <main>
         <h1>Preguntas Frecuentes</h1>
         <section>
-            <article class="articulos__faq" data-aos="zoom-in">
-                <h2 class="titulos__faq" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Medios de Pago</h2>
-                <ul class="lista__medios--pag" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2500">
+            <article class="my-6 p-5 color__faq" data-aos="zoom-in">
+                <h2 class="mb-5 text-center" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Medios de Pago</h2>
+                <ul class="d-flex flex-column flex-md-row justify-content-evenly text-center fs-3 lista__medios--pag" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2500">
                     <li>Transferencia Bancaria</li>
                     <li>Efectivo</li>
                     <li>Mercado Pago</li>
                 </ul>               
             </article>
-            <article class="articulos__faq" data-aos="zoom-in">
-                <h2 class="titulos__faq" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Pedidos</h2>
-                <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam perspiciatis facilis reprehenderit quia, nam doloribus voluptatum ratione aliquid veniam consequuntur asperiores, repudiandae assumenda. Quasi perferendis rerum modi libero? Ullam?</p>
+            <article class="my-6 p-5 color__faq" data-aos="zoom-in">
+                <h2 class="mb-5 text-center" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Pedidos</h2>
+                <p class="fs-2 text-center"data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam perspiciatis facilis reprehenderit quia, nam doloribus voluptatum ratione aliquid veniam consequuntur asperiores, repudiandae assumenda. Quasi perferendis rerum modi libero? Ullam?</p>
             </article>
-            <article class="articulos__faq" data-aos="zoom-in">
-                <h2 class="titulos__faq" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">¿Tienen un local físico?</h2>
-                <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorum molestiae explicabo itaque suscipit voluptatibus adipisci dolor non eum voluptate quam voluptas quidem, ut cum dolore ipsam laborum error at?</p>
+            <article class="my-6 p-5 color__faq" data-aos="zoom-in">
+                <h2 class="mb-5 text-center" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">¿Tienen un local físico?</h2>
+                <p class="fs-2 text-center"data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorum molestiae explicabo itaque suscipit voluptatibus adipisci dolor non eum voluptate quam voluptas quidem, ut cum dolore ipsam laborum error at?</p>
             </article>
-            <article class="articulos__faq" data-aos="zoom-in">
-                <h2 class="titulos__faq" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" >¿Cómo se realizan los envíos?</h2>
-                <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio fuga culpa deleniti temporibus expedita, corporis excepturi non quas vel esse alias ea quo ipsam quibusdam nesciunt qui autem, reiciendis enim?</p>
+            <article class="my-6 p-5 color__faq" data-aos="zoom-in">
+                <h2 class="mb-5 text-center" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" >¿Cómo se realizan los envíos?</h2>
+                <p class="fs-2 text-center"data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio fuga culpa deleniti temporibus expedita, corporis excepturi non quas vel esse alias ea quo ipsam quibusdam nesciunt qui autem, reiciendis enim?</p>
             </article>
-            <article class="articulos__faq" data-aos="zoom-in">
-                <h2 class="titulos__faq" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">¿Es seguro comprar por Internet?</h2>
-                <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, fugiat nulla, totam aliquam quod nihil ratione ab perferendis eius eveniet sapiente voluptatum pariatur sed consectetur rerum, possimus doloribus ullam magnam!</p>
+            <article class="my-6 p-5 color__faq" data-aos="zoom-in">
+                <h2 class="mb-5 text-center" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">¿Es seguro comprar por Internet?</h2>
+                <p class="fs-2 text-center"data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, fugiat nulla, totam aliquam quod nihil ratione ab perferendis eius eveniet sapiente voluptatum pariatur sed consectetur rerum, possimus doloribus ullam magnam!</p>
             </article>
         </section>
     </main>
-    <footer class="pie pie__color--caja pieinx">
-        <h2>Seguinos en Nuetras Redes Sociales</h2>
-        <div class="pie__iconos--red">
-            <a href="https://www.facebook.com/pupeshoes" target="_blank"> 
-                <img src="./img/facebook.png" alt="Logo Facebook" class="pie__icon--sm">
-            </a>
+    <footer>
+        <article class="color__faq">
+            <h2 class="mb-5 text-center">Seguinos en Nuetras Redes Sociales</h2>
+            <div class="d-flex flex-column flex-md-row justify-content-evenly text-center">
+                <a href="https://www.facebook.com/pupeshoes" target="_blank"> 
+                    <img src="./img/facebook.png" alt="Logo Facebook" class="pie__icon--sm mb-5">
+                </a>
 
-            <a href="https://www.instagram.com/pupe.shoes" target="_blank">
-                <img src="./img/instagram.png" alt="Logo Instagram" class="pie__icon--sm">
-            </a>
+                <a href="https://www.instagram.com/pupe.shoes" target="_blank">
+                    <img src="./img/instagram.png" alt="Logo Instagram" class="pie__icon--sm mb-5">
+                </a>
 
-            <a href="https://api.whatsapp.com/send?phone=5491152603265" target="_blank">
-                <img src="./img/whatsappcuadrado.png" alt="WhatsApp Logo" class="pie__icon--sm">
-            </a>
-        </div>
+                <a href="https://api.whatsapp.com/send?phone=5491152603265" target="_blank">
+                    <img src="./img/whatsappcuadrado.png" alt="WhatsApp Logo" class="pie__icon--sm mb-5">
+                </a>
+           </div>
+        </article>
     </footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
