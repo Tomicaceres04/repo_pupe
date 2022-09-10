@@ -21,6 +21,7 @@ h1 {
 
 p {
     font-family: 'Nunito Sans', sans-serif;
+    color: #e4ede7;
 }
 
 h2{
@@ -30,13 +31,18 @@ h2{
 img{
     width: 100%;
 }
+.gradient__fondo{
+    background: rgb(228,163,42);
+    background: linear-gradient(149deg, rgba(228,163,42,1) 31%, rgba(186,167,141,1) 57%);   
+}
+.gradient__fondo--pupe{
+    background: rgb(228,163,42);
+    background: linear-gradient(200deg, rgba(228,163,42,1) 31%, rgba(186,167,141,1) 57%);
+}
 /* Termina Selectores de Etiquetas */
 /* Arranca nav */
-nav {
-    background: rgb(254,190,16);
-    background: radial-gradient(circle, rgba(254,190,16,1) 47%, rgba(136,115,1,1) 100%);
-}
     nav ul li a {
+        color:#e4ede7;
         font-size: 2rem;   
     }
 /* imagen de nav logo */
@@ -55,7 +61,7 @@ nav {
 /* Termina nav */
 /* Color fondo */
 .color__fondo{
-    background-image: radial-gradient(rgba(234,178,93,1) 0%, rgba(40,39,39,1) 50.7% );
+    background-color: #2b2c2d;
 }
 /* Arranca inicio */
 /* Cards */
@@ -71,9 +77,6 @@ nav {
 }
 /* Quines somos*/
 /* Arranca Caja Quienes */
-.color__fondo--gua{
-    background-color: #f2b705
-}
 .foto__pupe{
     border-radius: 100%;
     width: 100vw;
@@ -97,6 +100,9 @@ nav {
 .color__fondo--con{
     background: rgb(254,190,16);
     background: radial-gradient(circle, rgba(254,190,16,1) 47%, rgba(136,115,1,1) 100%);
+}
+.color__fondo-{
+   background-color: #ECCC6E; 
 }
 .form-control{
     min-height: 3.3rem;
@@ -130,6 +136,9 @@ nav {
 .pie__icon--sm{
     width: 65px;
 }
+.bg-color{
+    color: #f2cb05;
+}
 /* MEDIAS */
 @media (min-width:556px) {
     /* Quienes Somos */
@@ -150,16 +159,8 @@ nav {
     .foto__guada{
         width: 85vw;
     }
-    .border__maps{
-        margin: auto 20px;
-    }
 }
 @media (min-width:769px) {
-    /* Carrousel */
-    .border__maps{
-        margin: auto 40px;
-    }
-    /* Termina Carrousel */
     /* Quienes Somos */
     .foto__guada{
         width: 50vw;
@@ -181,9 +182,15 @@ nav {
         margin: auto 40px;
     }
     .border__maps{
-        margin: auto 10px;
+        width: 450px;
+        height: 450px;
     }
 }
+@media (min-width:1176px){
+    .border__maps{
+        width: 550px;
+        height: 550px;
+    }
 @media (min-width:1300px) {
     /* Quienes Somos */
     .foto__guada{
@@ -194,13 +201,12 @@ nav {
     }
     /* Contacto */
     .border__maps{
-        margin: auto 50px;
+        width: 600px;
+        height: 600px;
+        /* margin: auto 50px; */
     }
 @media (min-width:1530px) {
     nav ul li{
         margin: auto 110px;
-    }
-    .border__maps{
-        margin: auto 100px;
     }
 }
