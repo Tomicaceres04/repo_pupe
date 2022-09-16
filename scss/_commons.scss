@@ -1,0 +1,45 @@
+$backColor: #2b2c2d;
+$white: #e4ede7;
+$bgColor: #f2cb05;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+}
+/* Selectores de Etiqueta */
+h1 {
+    text-align: center;
+    color:$bgColor;
+    font-family: 'Amatic SC', cursive;
+    font-size: 5rem;
+    margin: 50px 30px;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    color:$white;
+}
+
+h2{
+    font-size: 4rem;
+    font-family: 'Amatic SC', cursive;
+}
+img{
+    width: 100%;
+}
+.gradient__fondo{
+    background: rgb(228,163,42);
+    background: linear-gradient(149deg, rgba(228,163,42,1) 31%, rgba(186,167,141,1) 57%);   
+}
+.gradient__fondo--pupe{
+    background: rgb(228,163,42);
+    background: linear-gradient(200deg, rgba(228,163,42,1) 31%, rgba(186,167,141,1) 57%);
+}
+.color__fondo{
+    background-color: $backColor;
+}

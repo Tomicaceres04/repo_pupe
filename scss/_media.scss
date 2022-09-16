@@ -1,0 +1,73 @@
+/* MEDIAS */
+@media (min-width:556px) {
+    /* Quienes Somos */
+    .foto__guada{
+        width: 90vw;
+    }
+}
+@media (min-width:600px) {
+    /* Contactanos */
+    .border__maps{
+        border-radius: 600px;
+        height: 600px;
+        width: 600px;
+    }
+}
+@media (min-width:650px) {
+    /* Quienes Somos */
+    .foto__guada{
+        width: 85vw;
+    }
+}
+@media (min-width:769px) {
+    /* Quienes Somos */
+    .foto__guada{
+        width: 50vw;
+    }
+    .border__circulo{
+        height: 130px;
+        width: 130px;
+        border-radius: 100px;
+    }
+}
+@media (min-width:900){
+    .carousel__img{
+        height: 85vh;
+        object-fit: cover;
+    }
+}
+@media (min-width:992px){
+    nav ul li{
+        margin: auto 40px;
+    }
+    .border__maps{
+        width: 450px;
+        height: 450px;
+    }
+}
+@media (min-width:1176px){
+    .border__maps{
+        width: 550px;
+        height: 550px;
+    }
+}
+@media (min-width:1300px) {
+    /* Quienes Somos */
+    .foto__guada{
+        width: 25vw;
+    }
+    nav ul li{
+        margin: auto 80px;
+    }
+    /* Contacto */
+    .border__maps{
+        width: 600px;
+        height: 600px;
+        /* margin: auto 50px; */
+    }
+}
+    @media (min-width:1530px) {
+        nav ul li{
+            margin: auto 110px;
+        }
+}

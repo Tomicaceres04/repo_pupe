@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Nunito+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Nunito Sans", sans-serif;
+  color: white;
+}
+
+/* Selectores de Etiqueta */
+h1 {
+  text-align: center;
+  color: #f2cb05;
+  font-family: "Amatic SC", cursive;
+  font-size: 5rem;
+  margin: 50px 30px;
+}
+
+p {
+  font-family: "Nunito Sans", sans-serif;
+  color: #e4ede7;
+}
+
+h2 {
+  font-size: 4rem;
+  font-family: "Amatic SC", cursive;
+}
+
+img {
+  width: 100%;
+}
+
+.gradient__fondo {
+  background: rgb(228, 163, 42);
+  background: linear-gradient(149deg, rgb(228, 163, 42) 31%, rgb(186, 167, 141) 57%);
+}
+
+.gradient__fondo--pupe {
+  background: rgb(228, 163, 42);
+  background: linear-gradient(200deg, rgb(228, 163, 42) 31%, rgb(186, 167, 141) 57%);
+}
+
+.color__fondo {
+  background-color: #2b2c2d;
+}
+
+nav ul li a {
+  color: #e4ede7;
+  font-size: 2rem;
+}
+
+.nav__color {
+  text-decoration: none;
+  color: #e4ede7;
+}
+
+.border__circulo {
+  width: 100px;
+  height: 100px;
+  background-image: none;
+  background-size: cover;
+  border-radius: 55px;
+}
+
+.boton__hamburguesa {
+  width: 50px;
+  height: 50px;
+}
+
+/* Footer */
+.pie__icon--sm {
+  width: 65px;
+}
+
+.bg-color {
+  color: #f2cb05;
+}
+
+/* Arranca inicio */
+/* Cards */
+.text__color {
+  color: #e4ede7;
+}
+
+/* Carrousel */
+.carousel__ancho {
+  width: 90vw;
+}
+
+.carousel__img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* Quines somos*/
+/* Arranca Caja Quienes */
+.foto__pupe {
+  border-radius: 100%;
+  width: 100vw;
+}
+
+.foto__guada {
+  border-radius: 100%;
+  width: 100vw;
+}
+
+.my-6 {
+  margin: 55px auto;
+}
+
+/* Termina Cajas Quienes */
+/* Termina quienes somos */
+/* Arranca Destacados */
+.precio {
+  font-size: 2rem;
+  color: #e4ede7;
+}
+
+/* Termina Destacados */
+/* Arranca FAQ */
+.lista__medios--pag {
+  list-style: decimal-leading-zero;
+  align-items: center;
+}
+
+.form-control {
+  min-height: 3.3rem;
+  line-height: initial;
+}
+
+.btn {
+  min-height: 3.3rem;
+  line-height: initial;
+}
+
+.pie__icon--md {
+  width: 50px;
+}
+
+.border__maps {
+  border-radius: 100%;
+  height: 35vh;
+  width: 93vw;
+}
+
+/* MEDIAS */
+@media (min-width: 556px) {
+  /* Quienes Somos */
+  .foto__guada {
+    width: 90vw;
+  }
+}
+@media (min-width: 600px) {
+  /* Contactanos */
+  .border__maps {
+    border-radius: 600px;
+    height: 600px;
+    width: 600px;
+  }
+}
+@media (min-width: 650px) {
+  /* Quienes Somos */
+  .foto__guada {
+    width: 85vw;
+  }
+}
+@media (min-width: 769px) {
+  /* Quienes Somos */
+  .foto__guada {
+    width: 50vw;
+  }
+  .border__circulo {
+    height: 130px;
+    width: 130px;
+    border-radius: 100px;
+  }
+}
+@media (min-width: 900) {
+  .carousel__img {
+    height: 85vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (min-width: 992px) {
+  nav ul li {
+    margin: auto 40px;
+  }
+  .border__maps {
+    width: 450px;
+    height: 450px;
+  }
+}
+@media (min-width: 1176px) {
+  .border__maps {
+    width: 550px;
+    height: 550px;
+  }
+}
+@media (min-width: 1300px) {
+  /* Quienes Somos */
+  .foto__guada {
+    width: 25vw;
+  }
+  nav ul li {
+    margin: auto 80px;
+  }
+  /* Contacto */
+  .border__maps {
+    width: 600px;
+    height: 600px;
+    /* margin: auto 50px; */
+  }
+}
+@media (min-width: 1530px) {
+  nav ul li {
+    margin: auto 110px;
+  }
+}/*# sourceMappingURL=main.css.map */
