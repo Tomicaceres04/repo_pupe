@@ -5,31 +5,6 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 62.5%;
-  font-family: "Nunito Sans", sans-serif;
-  color: white;
-}
-
-/* Selectores de Etiqueta */
-h1 {
-  text-align: center;
-  color: #f2cb05;
-  font-family: "Amatic SC", cursive;
-  font-size: 5rem;
-  margin: 50px 30px;
-}
-
-p {
-  font-family: "Nunito Sans", sans-serif;
-  color: #e4ede7;
-}
-
-h2 {
-  font-size: 4rem;
-  font-family: "Amatic SC", cursive;
-}
-
 img {
   width: 100%;
 }
@@ -44,12 +19,60 @@ img {
   background: linear-gradient(200deg, rgb(228, 163, 42) 31%, rgb(186, 167, 141) 57%);
 }
 
+.fondo__gradiente {
+  background: rgb(193, 136, 30);
+  background: linear-gradient(207deg, rgb(193, 136, 30) 31%, rgb(74, 69, 62) 57%);
+}
+
+.fondo__gradiente--pupe {
+  background: rgb(193, 136, 30);
+  background: linear-gradient(162deg, rgb(193, 136, 30) 31%, rgb(74, 69, 62) 57%);
+}
+
 .color__fondo {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Nunito Sans", sans-serif;
+  color: white;
+}
+
+/* Selectores de Etiqueta */
+.h__class, h1 {
+  text-align: center;
+  color: #fdc022;
+  font-family: "Amatic SC", cursive;
+  font-size: 5rem;
+}
+
+h1 {
+  margin: 50px 30px;
+}
+
+p {
+  font-family: "Nunito Sans", sans-serif;
+  color: #2b2c2d;
+}
+
+h2 {
+  font-size: 4rem;
+  font-family: "Amatic SC", cursive;
+}
+
+h3 {
+  font-size: 3rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.nav__bg {
   background-color: #2b2c2d;
 }
 
 nav ul li a {
-  color: #e4ede7;
+  color: #fdc022;
+  text-decoration: none;
   font-size: 2rem;
 }
 
@@ -77,18 +100,32 @@ nav ul li a {
 }
 
 .bg-color {
-  color: #f2cb05;
+  color: #fdc022;
 }
 
 /* Arranca inicio */
 /* Cards */
 .text__color {
-  color: #e4ede7;
+  color: #2b2c2d;
+}
+
+.card_section {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.card_section:hover {
+  box-shadow: 1px 1px 20px #2d2d2d;
+}
+
+.card__ani {
+  transition: all 300ms;
+}
+.card__ani:hover {
+  transform: scale(1.1);
 }
 
 /* Carrousel */
 .carousel__ancho {
-  width: 90vw;
+  width: 98vw;
 }
 
 .carousel__img {
@@ -98,11 +135,6 @@ nav ul li a {
 
 /* Quines somos*/
 /* Arranca Caja Quienes */
-.foto__pupe {
-  border-radius: 100%;
-  width: 100vw;
-}
-
 .foto__guada {
   border-radius: 100%;
   width: 100vw;
@@ -117,7 +149,14 @@ nav ul li a {
 /* Arranca Destacados */
 .precio {
   font-size: 2rem;
-  color: #e4ede7;
+  color: #2b2c2d;
+}
+
+.card__ani--des {
+  transition: all 300ms;
+}
+.card__ani--des:hover {
+  transform: scale(1.04);
 }
 
 /* Termina Destacados */
@@ -213,7 +252,6 @@ nav ul li a {
   .border__maps {
     width: 600px;
     height: 600px;
-    /* margin: auto 50px; */
   }
 }
 @media (min-width: 1530px) {

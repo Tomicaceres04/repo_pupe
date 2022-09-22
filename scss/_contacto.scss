@@ -1,10 +1,12 @@
-.form-control{
+@mixin botones {
     min-height: 3.3rem;
     line-height: initial;
 }
+.form-control{
+    @include botones;
+}
 .btn{
-    min-height: 3.3rem;
-    line-height: initial;
+    @include botones;
 }
 .pie__icon--md{
     width: 50px;

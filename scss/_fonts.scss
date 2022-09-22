@@ -1,3 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Nunito+Sans&display=swap');
 $mainFont:'Nunito Sans', sans-serif;
 $tittleFont:'Amatic SC', cursive;
+html{
+    font-size: 62.5%;
+    font-family: $mainFont;
+    color: white;
+}
+/* Selectores de Etiqueta */
+.h__class{
+    text-align: center;
+    color: $bgColor;
+    font-family: $tittleFont;
+    font-size: 5rem;
+}
+h1 {
+    @extend .h__class;
+    margin: 50px 30px;
+}
+
+p {
+    font-family: $mainFont;
+    color:$black;
+}
+h2{
+    font-size: 4rem;
+    font-family: $tittleFont;
+}
+
+h3{
+    font-size: 3rem;
+    font-family: $mainFont;
+}

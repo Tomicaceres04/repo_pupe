@@ -1,9 +1,5 @@
 /* Quines somos*/
 /* Arranca Caja Quienes */
-.foto__pupe{
-    border-radius: 100%;
-    width: 100vw;
-}
 .foto__guada{
     border-radius:100%;
     width: 100vw;
@@ -16,7 +12,13 @@
 /* Arranca Destacados */
 .precio{
     font-size: 2rem;
-    color: $white;
+    color: $black;
+}
+.card__ani--des{
+    transition: all 300ms;
+    &:hover{
+        transform: scale(1.04);
+    }
 }
 /* Termina Destacados */
 /* Arranca FAQ */
