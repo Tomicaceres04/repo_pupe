@@ -66,6 +66,10 @@ h3 {
   font-family: "Nunito Sans", sans-serif;
 }
 
+.text__justify--p {
+  text-align: justify;
+}
+
 .nav__bg {
   background-color: #2b2c2d;
 }
@@ -147,6 +151,14 @@ nav ul li a {
 /* Termina Cajas Quienes */
 /* Termina quienes somos */
 /* Arranca Destacados */
+.acordion__quienes {
+  font-size: 2rem;
+}
+
+.acordion__quienes--p {
+  font-size: 1.7rem;
+}
+
 .precio {
   font-size: 2rem;
   color: #2b2c2d;
