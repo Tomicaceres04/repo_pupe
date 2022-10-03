@@ -16,7 +16,8 @@ convertirse en un e-commerce
 .Un carousel de bootstrap con secciones de descuentos o ofertas de la tienda las imagenes son webp
 .3 cards con productos con informacion,aninaciones y un boxshadow 
 .El pie de pagina con las redes sociales con animaciones
-# La pagina de Destacados tiene la informacion en cards de cuanto cuestan los productos tiene animaciones y un boxshadow
+# La pagina de Destacados 
+.Tiene la informacion en cards de cuanto cuestan los productos tiene animaciones y un boxshadow
 # La pagina de quienes somos tiene informacion acerca de pupe y de la dueña 
 .Contiene animaciones y cada caja esta hecha con box modeling
 #La pagina de Preguntas Frecuentes contiene informacion sobre envios pagos y demas
