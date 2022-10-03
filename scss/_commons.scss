@@ -5,6 +5,7 @@ $bgColor: #fdc022;
 $navColor:#2b2c2d;
 $black:#2b2c2d;
 $titCards: #fbb500;
+$precioColor: #080808;
 $boxShadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
 $paleta:(
     'uno': #fdc022,
@@ -38,4 +39,7 @@ img{
 }
 .color__fondo{
     background-image: $backColor;
+}
+.error__404{
+    height: 70vh;
 }

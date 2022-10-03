@@ -33,6 +33,10 @@ img {
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 
+.error__404 {
+  height: 70vh;
+}
+
 html {
   font-size: 62.5%;
   font-family: "Nunito Sans", sans-serif;
@@ -70,19 +74,18 @@ h3 {
   text-align: justify;
 }
 
+.nav__text {
+  font-family: "Amatic SC", cursive;
+  color: #fbb500;
+}
+
 .nav__bg {
   background-color: #2b2c2d;
 }
 
 nav ul li a {
-  color: #fdc022;
   text-decoration: none;
-  font-size: 2rem;
-}
-
-.nav__color {
-  text-decoration: none;
-  color: #e4ede7;
+  font-size: 3.5rem;
 }
 
 .border__circulo {
@@ -161,6 +164,12 @@ nav ul li a {
 
 .precio {
   font-size: 2rem;
+  color: #fbb500;
+  font-weight: bold;
+}
+
+.precio__cou {
+  font-size: 1.5rem;
   color: #2b2c2d;
 }
 
