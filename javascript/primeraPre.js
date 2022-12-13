@@ -12,7 +12,16 @@ class Cliente{
 
 let primerCliente = new Cliente(prompt("Ingrese su Nombre").toLocaleUpperCase(), prompt("Ingrese su apellido").toLocaleUpperCase());
 
-console.log(primerCliente);
+while ((primerCliente.nombre == "") || (primerCliente.apellido == "")) {
+
+    console.log("Debes ingresar todos los campos solicitados");
+    alert("Debes ingresar todos los campos solicitados");
+
+    primerCliente = new Cliente(prompt("Ingrese Su Nombre").toLocaleUpperCase(), prompt("Ingrese Su Apellido").toLocaleUpperCase());
+}
+
+console.log("Bienvenido"+ " " + primerCliente.toSting())
+alert("Bienvenido" + " " + primerCliente.toSting())
 
 let saludo = prompt("Que tipo de calzado queres ver?\n" + "Por ejemplo '1' para Botas " + "\n n1-BOTAS" + "\n n2-ZAPATILLAS" + "\n n3-TEXANAS" + "\n n4-Salir")
 let botas = 1;
