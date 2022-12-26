@@ -18,6 +18,29 @@
     font-size: 1.7rem;
 }
 // Termina Acordion
+.contenedor-productos {
+  display: grid;
+  grid-template-columns: repeat(4 , 1fr);
+    gap: 1rem;
+}
+.producto-imagen{
+    width: 300px;
+    border-radius: 1rem;
+}
+.producto-detalles{
+    background-color: $backColor;
+    padding: .5rem;
+    border-radius: 1rem;
+    margin-top: -2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+.producto-agregar{
+    border: 0;
+    background-color: azure;
+}
 .precio{
     font-size: 2rem;
     color: $titCards;
