@@ -1,0 +1,41 @@
+/* Quines somos*/
+/* Arranca Caja Quienes */
+.foto__guada{
+    border-radius:100%;
+    width: 100vw;
+}
+.my-6{
+    margin: 55px auto;
+}
+/* Termina Cajas Quienes */
+/* Termina quienes somos */
+/* Arranca Destacados */
+// Arranca Acordion
+.acordion__quienes{
+    font-size: 2rem;
+}
+.acordion__quienes--p{
+    font-size: 1.7rem;
+}
+// Termina Acordion
+.precio{
+    font-size: 2rem;
+    color: $titCards;
+    font-weight: bold;
+}
+.precio__cou{
+    font-size: 1.5rem;
+    color: $black;
+}
+.card__ani--des{
+    transition: all 300ms;
+    &:hover{
+        transform: scale(1.04);
+    }
+}
+/* Termina Destacados */
+/* Arranca FAQ */
+.lista__medios--pag{
+    list-style: decimal-leading-zero;
+    align-items: center;
+}
